@@ -42,3 +42,5 @@ function alerts(p,text){
 
 
 }
+
+console.log("alert loaded!");
