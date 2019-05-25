@@ -43,4 +43,4 @@ function alerts(p,text){
 
 }
 
-console.log("alert loaded!");
+console.log("%calert loaded!","color:lime");
