@@ -1,5 +1,4 @@
 function alerts(p,text){
-
     //wrapper
     var b = document.createElement("div");
     b.style.padding = "20px";
@@ -23,12 +22,14 @@ function alerts(p,text){
             b.style.backgroundColor = "#FF9800";
         break;
         default:
-
+            b.style.backgroundColor = "#2196F3";
+            p = "i"
     }
    
     //text
     var text = document.createElement("span");
-
+    text.color = "#FFFFFF";
+    text.innerHTML = text;
     
     //exit button
     var x = document.createElement("span");
@@ -39,6 +40,7 @@ function alerts(p,text){
     x.style.lineHeight = "20px";
     x.style.cursor = "pointer";
     x.setAttribute("onclick","this.parent.style.display = 'none'");
+    x.innerText = "&times;";
 
     document.body.appendChild(b);
     b.appendChild(text);
