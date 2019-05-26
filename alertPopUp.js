@@ -40,6 +40,9 @@ function alerts(p,text){
     x.style.cursor = "pointer";
     x.setAttribute("onclick","this.parent.style.display = 'none'");
 
+    document.body.appendChild(b);
+    b.appendChild(text);
+    b.appendChild(x);
 
 }
 
