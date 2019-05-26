@@ -48,4 +48,5 @@ function alerts(p,text){
 
 }
 
-console.log("%calert loaded!","color:lime");
+console.log("%calert loaded!","color:yellow");
+
