@@ -27,9 +27,9 @@ function alerts(p,text){
     }
    
     //text
-    var text = document.createElement("span");
-    text.color = "#FFFFFF";
-    text.innerHTML = text;
+    var textE = document.createElement("span");
+    textE.color = "#FFFFFF";
+    textE.innerHTML = text;
     
     //exit button
     var x = document.createElement("span");
@@ -43,7 +43,7 @@ function alerts(p,text){
     x.innerText = "&times;";
 
     document.body.appendChild(b);
-    b.appendChild(text);
+    b.appendChild(textE);
     b.appendChild(x);
 
 }
