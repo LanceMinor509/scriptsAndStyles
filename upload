@@ -1,0 +1,4 @@
+git add .
+git reset upload
+git commit -m "automatic upload"
+git push
